@@ -22,7 +22,7 @@ return {
 			local null_ls = require("null-ls")
 
 			mason_null_ls.setup({
-				ensure_installed = { "stylua", "prettier", "goimports" },
+				ensure_installed = { "stylua", "prettier", "goimports", "clang-format" },
 			})
 
 			null_ls.setup({
