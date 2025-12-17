@@ -2,25 +2,11 @@
 
 A modern, modular Neovim configuration optimized for productivity and aesthetics. Built with Lua.
 
-![image](https://github.com/user-attachments/assets/dc73f007-d5e4-4b2f-a612-90b4789a68e0)
-![image](https://github.com/user-attachments/assets/02c1a55d-516d-418f-939a-b892a185822b)
-![image](https://github.com/user-attachments/assets/93563bef-2a8c-49d7-93e5-9b2c71a64cd5)
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/27c1df7f-7fe2-4002-85bd-63b9c5f4f776" />
 
-## Key Features
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/381828d2-f74e-4883-99b2-4a335cba24f2" />
 
-- **Lightning Fast** - Optimized startup with `lazy.nvim` plugin manager
-- **Modular Design** - Clean, organized structure for easy maintenance
-- **Themes** - Beautiful default colorschemes with `nightfox` and easy switching
-- **Completions** - Completions with `nvim-cmp`
-- **Language Support** - Easy LSP management with `Mason`
-- **Code Formatting** - Formatting with `conform.nvim`, linting with `nvim-lint`
-- **Syntax Highlighting** - Enhanced highlighting with `Treesitter`
-- **Fuzzy Search** - Powerful file navigation with `Telescope`
-- **File Explorer** - Sidebar with `Neo-tree`
-- **Status Line** - Informative `lualine`
-- **Dashboard** - Startup screen with `alpha-nvim`
-- **Git Integration** - Visual git indicators with `gitsigns`
-- **UI Enhancements** - Notifications and better cmdline with `noice.nvim`
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/4d84574a-4c30-4cc7-b1b0-acf32f3cc846" />
 
 ## Project Structure
 
