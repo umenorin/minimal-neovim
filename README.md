@@ -13,7 +13,7 @@ A modern, modular Neovim configuration optimized for productivity and aesthetics
 - **Themes** - Beautiful default colorschemes with `nightfox` and easy switching
 - **Completions** - Completions with `nvim-cmp`
 - **Language Support** - Easy LSP management with `Mason`
-- **Code Formatting** - Integrated formatting/linting via `none-ls`
+- **Code Formatting** - Formatting with `conform.nvim`, linting with `nvim-lint`
 - **Syntax Highlighting** - Enhanced highlighting with `Treesitter`
 - **Fuzzy Search** - Powerful file navigation with `Telescope`
 - **File Explorer** - Sidebar with `Neo-tree`

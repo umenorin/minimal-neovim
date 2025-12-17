@@ -3,15 +3,28 @@
 -- linters, and formatters.
 -- https://github.com/mason-org/mason.nvim
 
--- Mason LSP config
--- Extension to mason.nvim that makes it easier to use lspconfig with mason.nvim.
--- https://github.com/mason-org/mason-lspconfig.nvim
-
 return {
 	{
 		"williamboman/mason.nvim",
 		config = function()
 			require("mason").setup()
+		end,
+	},
+	{
+		"WhoIsSethDaniel/mason-tool-installer.nvim",
+		dependencies = { "williamboman/mason.nvim" },
+		config = function()
+			require("mason-tool-installer").setup({
+				ensure_installed = {
+					-- Formatters
+					"stylua",
+					"prettierd",
+					"prettier",
+					"goimports",
+					-- Linters
+					"eslint_d",
+				},
+			})
 		end,
 	},
 	{
@@ -29,11 +42,10 @@ return {
 					"cssls",
 					"emmet_ls",
 					"ts_ls",
-          "texlab",
-          "clangd"
+					"texlab",
 				},
 				handlers = {
-					function(server_name) -- default
+					function(server_name)
 						require("lspconfig")[server_name].setup({})
 					end,
 				},
