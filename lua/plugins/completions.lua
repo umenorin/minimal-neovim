@@ -57,6 +57,9 @@ return {
 					{ name = "luasnip" },
 					{ name = "buffer" },
 				}),
+        experimental = {
+          ghost_text = true,
+        }
 			})
 		end,
 	},
