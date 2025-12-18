@@ -3,6 +3,7 @@ local keymap = vim.keymap.set
 -- Editor
 keymap("v", "<leader>y", '"+y', { desc = "Copy to system clipboard" })
 keymap("v", "<leader>p", '"+p', { desc = "Paste to system clipboard" })
+keymap("n", "<leader>Y", ":%y+<CR>", { desc = "Copy entire buffer to system clipboard" })
 
 -- LSP
 keymap("n", "K", vim.lsp.buf.hover, {})
